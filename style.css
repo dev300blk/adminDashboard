@@ -1,3 +1,10 @@
+
+
+Body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     background-color: #777;
     width: 100vw;
@@ -12,7 +19,32 @@
 }
 
 .side-bar {
-    background-color: #eee;
+    background-color: rgb(57, 152, 246);
+    display: grid;
+    gap: .75rem;
+    grid-template-rows: 5% 47.5% 47.5%;
+}
+
+.side-bar a {
+    display: flex;
+    gap: .5rem;
+}
+
+.logo{
+    grid-area: 1/1/2/2;
+}
+
+.navigation{
+    grid-area: ;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+.settings{
+    grid-area: 3/1/4/2;
 }
 
 
