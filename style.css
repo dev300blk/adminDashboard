@@ -1,10 +1,13 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
 
-
-Body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     background-color: #777;
     width: 100vw;
@@ -19,10 +22,27 @@ Body{
 }
 
 .side-bar {
-    background-color: rgb(57, 152, 246);
+    background-color: #0ea5e9;
     display: grid;
     gap: .75rem;
-    grid-template-rows: 5% 47.5% 47.5%;
+    grid-template-rows: 10% 35% 55%;
+
+}
+
+.side-bar p {
+    color: white;
+}
+
+
+ ul {
+    list-style-type: none;
+ }
+
+
+li {
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+   
 }
 
 .side-bar a {
@@ -30,45 +50,86 @@ Body{
     gap: .5rem;
 }
 
-.logo{
+.logo {
     grid-area: 1/1/2/2;
+    color: white;
+    display: flex;
+    grid-template-columns: 20% 80%;
+   justify-content: center;
+   align-items: center;
+   gap: .5rem;
+    
 }
 
-.navigation{
-    grid-area: ;
+.logo img {
+    width: 44px;
+    height: 44px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: left;
+    color: white;
+    
+}
+
+
+
+svg {
+    color: white;
+    margin-right: .5rem;
+}
+
+.settings {
+    display: flex;
+    justify-content: left;
+    grid-area: 3/1/4/2;
 }
 
 li {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0 5px;
+    ;
 }
 
-.settings{
-    grid-area: 3/1/4/2;
-}
 
 
 .header {
     display: grid;
     grid-area: 1/1/2/3;
-    background-color: rgb(163, 245, 11);
+    background-color: #f0f9ff;
 }
 
 .body {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-area: 2/1/7/3;
     /* background-color: rgb(9, 9, 239); */
-}
-
-.cards{
-    grid-area: 1/1/7/5;
-    background-color: rgb(197, 4, 4);
-}
-
-
-.news{
-    grid-area: 1/5/7/7;
-    background-color: purple;
     
+}
+
+.cards {
+    grid-area: 1/1/7/5;
+    background-color: #bae6fd;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.card{
+    background-color: #ebf1f5;
+    border: solid lightgray;
+}
+
+
+.news {
+    grid-area: 1/5/7/7;
+    background-color: #bae6fd;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
 }
