@@ -232,6 +232,20 @@ input {
 
 
 }
+.your-projects{
+    position:absolute;
+    margin-left: 21px;
+    margin-top: 30px;
+}
+
+.ann{
+position: absolute;
+margin-left: 6.5px;
+margin-top: 30px;
+    
+}
+
+
 
 .cards {
     grid-area: 1/1/7/5;
@@ -259,12 +273,12 @@ input {
 
 
 .one{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 30px;
 }
 
 .two{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-right: 7.5px;
 }
 
@@ -278,11 +292,11 @@ input {
 
 .five{
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .six{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-right: 7.5px;
 }
 
@@ -291,16 +305,22 @@ input {
     grid-area: 1/5/7/7;
     background-color: rgb(232, 245, 247);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr .01fr 1fr;
 
 
 }
+
+.trend{
+    margin-left: 7px;
+    margin-top: 15px;
+   
+ }
 
 .announcements {
     background-color: white;
     border: solid .25px rgb(234, 222, 222);
     padding: 1.8rem;
-    margin: 30px 30px 7.5px 7.5px;
+    margin: 60px 30px 15px 7.5px;
 
     max-height: auto;
     max-width: 400px;
@@ -317,7 +337,7 @@ input {
     background-color: white;
     border: solid .25px rgb(234, 222, 222);
     padding: 1.8rem;
-    margin: 7.5px 30px 30px 7.5px ;
+    margin: 7.5px 30px 60px 7.5px ;
     max-height: auto;
     max-width: 400px;
     overflow: scroll;
