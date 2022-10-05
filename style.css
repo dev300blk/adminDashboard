@@ -92,7 +92,7 @@ svg {
 }
 
 svg, svg p{
-    vertical-align: middle
+    vertical-align: middle;
     display: inline-block;
 }
 
@@ -123,6 +123,7 @@ li p {
     grid-area: 1/1/2/3;
     background-color: #f0f9ff;
     grid-template-rows: 1fr 1.25fr;
+    
 }
 
 .search {
@@ -222,6 +223,7 @@ input {
     border-radius: .65rem;
     background-color: #0ea5e9;
     border: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .body {
@@ -234,8 +236,9 @@ input {
 }
 .your-projects{
     position:absolute;
-    margin-left: 21px;
+    margin-left: 43px;
     margin-top: 30px;
+    font-weight: bolder;
 }
 
 .ann{
@@ -266,16 +269,18 @@ margin-top: 30px;
     min-width: 150px;
     max-width: 400px;
     max-height: 400px;
-    border: solid .25px rgb(234, 222, 222);
+    border: solid .25px rgb(222, 247, 245);
+    border-left: inset 9px rgb(240, 198, 81);
     padding: 1.8rem;
     border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
 }
 
 
 .one{
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .two{
@@ -284,7 +289,7 @@ margin-top: 30px;
 }
 
 .three{
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .four {
@@ -292,7 +297,7 @@ margin-top: 30px;
 }
 
 .five{
-    margin-left: 30px;
+    margin-left: 60px;
     margin-bottom: 60px;
 }
 
@@ -323,7 +328,7 @@ margin-top: 30px;
     padding: 1.8rem;
     margin: 60px 30px 15px 7.5px;
     border-radius: 3%;
-    max-height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 400px;
     overflow: scroll;
 }
@@ -332,6 +337,7 @@ margin-top: 30px;
     width: 70%;
     margin: auto;
     margin: 2%;
+    font-weight: bolder;
 }
 
 .trending {
@@ -340,7 +346,7 @@ margin-top: 30px;
     padding: 1.8rem;
     margin: 7.5px 30px 60px 7.5px ;
     border-radius: 3%;
-    max-height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 400px;
     overflow: scroll;
 
@@ -348,6 +354,6 @@ margin-top: 30px;
 
 .trending p {
     width: 70%;
-   
+   font-weight:bolder;
 
 }
