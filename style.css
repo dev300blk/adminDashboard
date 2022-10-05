@@ -263,6 +263,9 @@ margin-top: 30px;
 }
 
 .card {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    
     background-color: white;
     text-align: left;
     justify-content: center;
@@ -275,6 +278,18 @@ margin-top: 30px;
     border-radius: 3%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
+}
+
+.card-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-icons img{
+    height: 24px;
+    width: 24px;
 }
 
 
